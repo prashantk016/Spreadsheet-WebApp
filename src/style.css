@@ -1,0 +1,96 @@
+
+.table-btns *{
+    background-color:#f0b900;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin: 4px;
+    border: 1px solid #a47e00;
+}
+
+.table-btns a:hover{
+background-color: #d8a600;
+    
+}
+
+#row-add, #row-sub{
+    float: left;
+}
+#col-add, #col-sub{
+    float: right;
+}
+
+.textbox {
+    border: none;
+    width: 80px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.textbox:hover {
+    background-color: #ffffff;
+}
+
+td:focus {
+    background-color: #dfdede;
+}
+
+.textbox:not(:focus) {
+    text-align: right;
+}
+
+td {
+    border: 1px solid #bababa;  
+}
+
+tr:first-child td, td:first-child {
+    background-color: #828282;
+    text-align: center;
+    color: white;
+     font-weight: bold;
+    padding: 1px 3px;
+}
+
+table { 
+    margin-bottom: 15px;
+    border-collapse: collapse;  
+}
+
+#export{
+    color: white;
+    background: #29a5e6;
+    border: #1b73a2 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#export:hover{
+    color: white;
+    background: #2081b4;
+    border: #1b73a2 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+#delete{
+    color: white;
+    background: #1cdd6e;
+    border: #139149 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#delete:hover{
+    color: white;
+    background: #0d9d4a;
+    border: #2e4538 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
